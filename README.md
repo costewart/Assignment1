@@ -1,5 +1,4 @@
-# Assignment1
-CPSC 436i: Assignment 1
+
 
 <h1>CPSC 436i: Assignment 1</h1>
 <p> This webpage consists of three pages: About Me (the home page), Messages and Other Messages. In the Messages tab, you will find an input bar
