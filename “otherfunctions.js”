@@ -1,0 +1,22 @@
+function newItem() {
+    var item = document.getElementById("form-control").value;
+    var ul = document.getElementById("list");
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode("- " + item));
+    ul.appendChild(li);
+    document.getElementById("input").value = "";
+    li.onclick = removeItem;
+  }
+  
+function removeItem(e) {
+    e.target.parentElement.removeChild(e.target);
+  }
+    
+function eraseAll() {
+        var ul = document.getElementById("output");
+        var lis = ul.getElementsByTagName("li");
+        while(lis.length > 0) {
+	        ul.removeChild(lis[0]);
+}
+    }
+
