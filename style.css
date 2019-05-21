@@ -1,0 +1,169 @@
+/*CONTAINERS:*/
+
+
+#container0 {
+    width: 1025px;
+    margin: auto;
+    padding: 10px;
+}
+
+#container1 {
+  padding-top: 100px;
+  padding-left: 80px;
+ }
+
+#container2 {
+  width: 502px;
+  margin: auto;
+  padding: 15px;
+}
+
+#container3 {
+  padding-top: 125px;
+  padding-left: 175px;
+  padding-bottom: 0px;
+}
+
+/*BUTTONS:*/
+.button_bar {
+  float: right;
+  padding-top: 20px;
+  padding-right: 10px
+}
+
+.button1 {
+  background-color:#AA4465;
+  color: #EDF0DA;
+  border: 2px solid #EDF0DA;
+  border-radius: 8px;
+  font-size: 1vw;
+  padding: 12px 28px;
+}
+
+.addButton {
+  padding: 15px;
+  width: 15%;
+  background: #AA4465;
+  color: #EDF0DA;
+  float: left;
+  text-align: center;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #EDF0DA;
+  border-radius: 8px;
+}
+
+.eraseAll {
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 15px;
+  width: 10%;
+  background: #AA4465;
+  color: #EDF0DA;
+  float: left;
+  text-align: center;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #EDF0DA;
+  border-radius: 8px;
+}
+
+/*DIVS*/
+#wrap {
+  width: 1025px;
+  margin: auto;
+  padding: 10px;
+}
+
+.left {
+  width: 0px; 
+  height:100px; 
+  background:#EDF0DA; 
+  float: left;
+  position: relative;
+}
+.right {
+  width: 500px; 
+  height:300px; 
+  background:#EDF0DA; 
+  float: right;
+  word-wrap: break-word;
+  
+}
+
+/*LIST*/
+ul {
+  margin: 0;
+  padding-top: 75px;
+  padding-left: 25px;
+  padding-right: 150px;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 10px;
+  background: #F0DFAD;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+  background: #EDF0DA;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 51%;
+  padding: 20px;
+  padding-left: 25px;
+  float: left;
+  font-size: 20px;
+}
+
+/*MISCELLANEOUS*/
+.pic {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-left: 25px;
+  padding-top: 50px;
+  top:0;right:0;bottom:0;left:0;
+
+
+}
+
+#text {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 2vw;
+}
+
+#title {
+    font-family: 'Trebuchet MS';
+    font-size: 3.5vw;
+    color: #AA4465;
+}
+
+#small {
+    font-family: 'Trebuchet MS';
+    font: medium;
+    color: black;
+}
+
+.logo {
+  font-family: 'Trebuchet MS';
+  font-size: 5vw;
+  float: left;
+}
+
+
+
+
+
+
+
